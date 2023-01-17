@@ -54,6 +54,8 @@ main {
 
 #first{
     border-bottom: 0.5px solid grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .button_add {
@@ -72,6 +74,15 @@ main {
 
 /*secondo blocco*/
 
+#second{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.block{
+    margin-bottom: 40px;
+}
+
 .block_title{
     font-size: 18px;
     font-weight: bold;
@@ -83,6 +94,9 @@ main {
     content: '\2714';
 }
 
+.block_text{
+    margin-bottom: 15px;
+}
 
 .text::before{
     content: '\2714';
@@ -97,7 +111,7 @@ main {
     line-height: 20px;
 }
 
-.text{
+.text, .text_alt{
     font-weight: 500;
 }
 
@@ -107,6 +121,34 @@ main {
     color: white;
 }
 
-#editorial{
+.text_alt::before{
+    content: '\2716';
+    color: red;
+    border-radius: 50%;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    padding: 1px 3px;
+    font-size: 80%;
+    line-height: 20px;
+}
+
+.blue{
     background-color: blue;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+
+.pink{
+    background-color: pink;
 }
