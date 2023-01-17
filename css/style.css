@@ -37,3 +37,54 @@ header{
 
 /*main*/
 
+main {
+     background-color: #38AAFF;
+     padding: 40px 70px 50px 70px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px 50px 20px 50px;
+    
+}
+
+/*primo blocco*/
+
+#first{
+    border-bottom: 0.5px solid grey;
+}
+
+.button_add {
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#add_task{
+    background-color: #38AAFF;
+}
+
+#add_section{
+    border: solid grey 0.5px;
+}
+
+/*secondo blocco*/
+
+.title{
+    font-size: bold;
+}
+
+.title::before{
+    content: '\2714';
+}
+
+.text::before{
+    content: '\2714';
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+}
